@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadastro</title>
+</head>
+
+<body>
+
+<div>
+<div>
+
+<form action="index.html" method="post">
+
+<h1>Cadastrar usuário</h1>
+
+<fieldset>
+<legend>Dados pessoais</legend>
+
+Nome: <input type="text" name="nome">
+
+Email: <input type="email" name="email">
+
+Senha: <input type="password" name="senha">
+
+Confirma senha: <input type="password" name="confirmar">
+
+<br><br>
+
+<input type="radio" name="idade" value="17"> Abaixo ou igual 17
+<input type="radio" name="idade" value="18"> Acima 17
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Perfil</legend>
+
+Descrição:
+<br>
+<textarea name="descricao" rows="3" cols="40"></textarea>
+
+<br><br>
+
+Perfil trabalho:
+<select name="perfil">
+<option>Front-End Developer</option>
+<option>Back-End Developer</option>
+<option>Full Stack</option>
+</select>
+
+Interesses:
+<input type="checkbox" name="interesse"> Programador
+
+</fieldset>
+
+<br>
+
+<button type="submit">Enviar dados</button>
+
+</form>
+
+</div>
+</div>
+
+</body>
+</html>
